@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Graphics
 %define	pnam	Simple
-Summary:	Graphics-Simple perl module
-Summary(pl):	Modu³ perla Graphics-Simple
+Summary:	Graphics::Simple perl module
+Summary(pl):	Modu³ perla Graphics::Simple
 Name:		perl-Graphics-Simple
 Version:	0.04
 Release:	9
@@ -14,10 +14,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Graphics-Simple - a simple, device-independent graphics API for Perl.
+Graphics::Simple - a simple, device-independent graphics API for Perl.
 
 %description -l pl
-Graphics-Simple - prosty, niezale¿ny sprzêtowo graficzny API dla
+Graphics::Simple - prosty, niezale¿ny sprzêtowo graficzny API dla
 perla.
 
 %prep
