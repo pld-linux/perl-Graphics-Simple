@@ -3,13 +3,14 @@ Summary:	Graphics-Simple perl module
 Summary(pl):	Modu³ perla Graphics-Simple
 Name:		perl-Graphics-Simple
 Version:	0.04
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Graphics/Graphics-Simple-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
