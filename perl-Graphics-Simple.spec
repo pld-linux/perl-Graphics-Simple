@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Graphics
-%define	pnam	Simple
+%define		pdir	Graphics
+%define		pnam	Simple
 Summary:	Graphics::Simple - a simple, device-independent graphics API for Perl
 Summary(pl):	Graphics::Simple - prosty, niezale¿ny od ¶rodowiska API grafiki dla Perla
 Name:		perl-Graphics-Simple
