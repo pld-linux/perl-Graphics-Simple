@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Graphics
 %define	pnam	Simple
-%include	/usr/lib/rpm/macros.perl
 Summary:	Graphics-Simple perl module
 Summary(pl):	Modu³ perla Graphics-Simple
 Name:		perl-Graphics-Simple
 Version:	0.04
-Release:	8
-
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Graphics-Simple - prosty, niezale¿ny sprzêtowo graficzny API dla
 perla.
 
 %prep
-%setup -q -n Graphics-Simple-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
