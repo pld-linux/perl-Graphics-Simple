@@ -5,7 +5,7 @@ Summary:	Graphics::Simple perl module
 Summary(pl):	Modu³ perla Graphics::Simple
 Name:		perl-Graphics-Simple
 Version:	0.04
-Release:	10
+Release:	11
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +24,8 @@ perla.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -38,7 +39,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc ChangeLog README TODO
-%{perl_sitelib}/Graphics/Simple.pm
-%{perl_sitelib}/Graphics/Simple
-%dir %{perl_sitelib}/Graphics
+%{perl_vendorlib}/Graphics/Simple.pm
+%{perl_vendorlib}/Graphics/Simple
+%dir %{perl_vendorlib}/Graphics
 %{_mandir}/man3/*
