@@ -1,4 +1,4 @@
-%define		perl_sitelib	%(eval "`perl -V:installsitelib`"; echo $installsitelib)
+%include	/usr/lib/rpm/macros.perl
 Summary:	Graphics-Simple perl module
 Summary(pl):	Modu³ perla Graphics-Simple
 Name:		perl-Graphics-Simple
