@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla Graphics::Simple
 Name:		perl-Graphics-Simple
 Version:	0.04
 Release:	12
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ab74296023555d2304a34e803d9447e0
