@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Graphics-Simple
 Name:		perl-Graphics-Simple
 Version:	0.04
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Graphics/Graphics-Simple-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Graphics/Graphics-Simple-%{version}.tar.gz
 BuildRequires:	perl >= 5.005_03-10
 %requires_eq	perl
 Requires:	%{perl_sitearch}
@@ -17,7 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Graphics-Simple - a simple, device-independent graphics API for Perl.
 
 %description -l pl
-Graphics-Simple - prosty, niezale¿ny sprzêtowo graficzny API dla perla.
+Graphics-Simple - prosty, niezale¿ny sprzêtowo graficzny API dla
+perla.
 
 %prep
 %setup -q -n Graphics-Simple-%{version}
