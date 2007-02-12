@@ -2,7 +2,7 @@
 %define		pdir	Graphics
 %define		pnam	Simple
 Summary:	Graphics::Simple - a simple, device-independent graphics API for Perl
-Summary(pl):	Graphics::Simple - prosty, niezaleøny od ∂rodowiska API grafiki dla Perla
+Summary(pl.UTF-8):   Graphics::Simple - prosty, niezale≈ºny od ≈õrodowiska API grafiki dla Perla
 Name:		perl-Graphics-Simple
 Version:	0.04
 Release:	12
@@ -20,11 +20,11 @@ Graphics::Simple provides a simple, device-independent graphics API
 for Perl.  This module presents a unified API to graphics devices -
 currently X (using GTK+ and GNOME) and PostScript.
 
-%description -l pl
-Graphics::Simple udostÍpnia prosty, niezaleøny od ∂rodowiska graficzny
-interfejs programisty dla aplikacji (API) dla Perla. Modu≥ ten
-aktualnie przedstawia ujednolicony API dla ∂rodowisk graficznych: X (z
-uøyciem GTK+ i GNOME) oraz dla PostScriptu.
+%description -l pl.UTF-8
+Graphics::Simple udostƒôpnia prosty, niezale≈ºny od ≈õrodowiska graficzny
+interfejs programisty dla aplikacji (API) dla Perla. Modu≈Ç ten
+aktualnie przedstawia ujednolicony API dla ≈õrodowisk graficznych: X (z
+u≈ºyciem GTK+ i GNOME) oraz dla PostScriptu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
