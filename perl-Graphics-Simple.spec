@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Graphics
 %define		pnam	Simple
+%include	/usr/lib/rpm/macros.perl
 Summary:	Graphics::Simple - a simple, device-independent graphics API for Perl
 Summary(pl.UTF-8):	Graphics::Simple - prosty, niezależny od środowiska API grafiki dla Perla
 Name:		perl-Graphics-Simple
@@ -11,13 +11,14 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ab74296023555d2304a34e803d9447e0
+URL:		http://search.cpan.org/dist/Graphics-Simple/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Graphics::Simple provides a simple, device-independent graphics API
-for Perl.  This module presents a unified API to graphics devices -
+for Perl. This module presents a unified API to graphics devices -
 currently X (using GTK+ and GNOME) and PostScript.
 
 %description -l pl.UTF-8
